@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-const Database_conn = 'postgres://webadmin:TZVqse20474@node56780-wanichanon.proen.app.ruk-com.cloud:11657/books';
+const Database_conn = 'postgres://webadmin:TZVqse20474@node56780-wanichanon.proen.app.ruk-com.cloud:11657/Books';
 const sequelize = new Sequelize(Database_conn);
 
 const Book = sequelize.define('book', {
